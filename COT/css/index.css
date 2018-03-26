@@ -1,0 +1,286 @@
+
+body{
+    background-color: #000;
+}
+
+canvas{
+    position: absolute;
+}
+.am-viewport{
+    position: absolute;
+}
+.bgPic{ 
+  background-image:url(../img/bg.png);
+}
+/*.bgHover:hover{
+  background:url(../img/00-1.png) repeat center;
+}*/
+.box{
+  width: 517px;
+  height: 603px;
+  background:url(../img/00-1.png) no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display:none;
+}
+div.submitStyle{
+      width: 452px;
+      height: 145px;
+      border-radius: 12px;
+      background-color: none;
+      border:1px solid #fff;
+      font-size: 36px;
+      font-weight: 600;
+      color:#fff;
+      margin-top: 10px;
+      display:block;
+}
+button.submitStyle1{
+      width: 452px;
+      height: 98px;
+      border-radius: 12px;
+      border:none!important;
+      background-image: linear-gradient(95deg, #4a2aff, #7a13fe);
+      font-size: 36px;
+      font-weight: 600;
+      color:#fff;
+      margin-top: 10px;
+}
+button:hover,button:focus{
+    color:#fff!important;
+    border:none!important;
+    border-radius: 12px;
+    background-image: linear-gradient(95deg, #4a2aff, #7a13fe)!important;
+}
+div.submitStyle:hover,div.submitStyle:focus{
+    color:#fff!important;
+    background-color: none!important;
+    background-image:none!important;
+}
+a,a:hover,a:focus{
+  color:#fff;
+  text-decoration: none;
+  border-color:transparent;
+}
+.iconfont{
+    font-size: 50px;
+    color:#fff;
+}
+.proTitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 35px 0 15px;
+    color:#fff;
+}
+.proText{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color:#fff!important;
+}
+.activePro{
+    background-image:linear-gradient(129deg, #4a2aff, #7a13fe);
+}
+.spanStyle{  
+    white-space: nowrap;  /*强制span不换行*/
+    display: inline-block;  /*将span当做块级元素对待*/
+    width: 162px;  /*限制宽度*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+    line-height: 25px;  /*数字与之前的文字对齐*/
+    margin-top: 8px;
+}
+.spanStyle2{  
+    white-space: nowrap;  /*强制span不换行*/
+    display: inline-block;  /*将span当做块级元素对待*/
+    width: 210px;  /*限制宽度*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+    line-height: 25px;  /*数字与之前的文字对齐*/
+    margin-top: 8px;
+}
+p.introDetail{
+    font-size:24px;
+    font-weight:300;
+    color:#fff;
+    width:452px;
+    margin:20px 0 90px;
+  } 
+.showDetail{
+    text-align:center;
+    padding:25px;
+    width:350px;
+    height:300px;
+  }
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .iconfont{
+      font-size:26px!important;
+    }
+    .whiteBook h2,
+    .am-slider-content h2{
+      font-size: 48px!important;
+    }
+    div.submitStyle p,button.submitStyle1 p,.whiteBook p,
+    .am-slider-content p{
+      font-size: 18px!important;
+    }
+    div.submitStyle p{
+      margin-top:10px!important;
+    }
+    .am-slider-content img{
+      height: 47px!important;
+      width: 44px!important;
+      margin-right:-22px!important;
+
+    }
+    section.whiteBook{
+      margin-left:30px!important;
+      margin-top:0!important;
+
+    }
+    p.introDetail,div.submitStyle,button.submitStyle1{
+      width: 225px;
+      font-size: 24px;           
+      border-radius: 5px;
+    }
+    div.submitStyle{
+      height: 75px;
+    }
+    button.submitStyle1{
+      height:49px;
+    }
+    img.bannerIcon{
+      margin-top:-60px;
+    }
+    h2.section--title{
+      font-size: 30px!important;
+    }
+    p.sightdescript{
+      font-size: 20px!important;
+    }
+    p.sightdescript1{
+      font-size: 16px!important;
+    }
+    img.bannerImg{
+      width:480px!important;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .iconfont{
+      font-size:22px!important;
+    }
+    .whiteBook h2,.am-slider-content h2{
+      font-size: 30px!important;
+    }
+    p.introDetail,div.submitStyle p,button.submitStyle1 p,.am-slider-content p{
+      font-size: 14px!important;
+    }
+    .whiteBook p{
+      font-size: 20px!important;
+    }
+    button.submitStyle1 p{
+      margin-top:10px!important;
+    }
+    .am-slider-content img{
+      height: 47px!important;
+      width: 44px!important;
+      margin-right:-22px!important;
+
+    }
+    section.whiteBook{
+      margin-left:30px!important;
+      margin-top:0!important;
+    }
+    p.introDetail,div.submitStyle,button.submitStyle1{
+      width: 225px;
+      font-size: 24px;           
+      border-radius: 5px;
+    }
+    div.submitStyle{
+      height: 75px;
+    }
+    button.submitStyle1{
+      height:49px;
+    }
+    img.bannerIcon{
+      margin-top:-60px;
+    }
+    h2.section--title{
+      font-size: 30px!important;
+    }
+    p.sightdescript{
+      font-size: 20px!important;
+    }
+    p.sightdescript1{
+      font-size: 16px!important;
+    }
+    img.bannerImg{
+      width:480px!important;
+    }
+}
+@media screen and (max-width: 479px) {
+    .iconfont{
+      font-size:22px!important;
+    }
+    .whiteBook h2,.am-slider-content h2{
+      font-size: 30px!important;
+    }
+    p.introDetail,div.submitStyle p,button.submitStyle1 p,.am-slider-content p{
+      font-size: 14px!important;
+    }
+    .whiteBook p{
+      font-size: 16px!important;
+    }
+    div.submitStyle p{
+      margin-top:10px!important;
+    }
+    .am-slider-content img{
+      height: 47px!important;
+      width: 44px!important;
+      margin-right:-22px!important;
+
+    }
+    section.whiteBook{
+      margin-left:30px!important;
+      margin-top:0!important;
+    }
+    p.introDetail,div.submitStyle,button.submitStyle1{
+      width: 225px;
+      font-size: 24px;           
+      border-radius: 5px;
+    }
+    div.submitStyle{
+      height: 75px;
+    }
+    button.submitStyle1{
+      height:49px;
+    }
+    img.bannerIcon{
+      margin-top:-60px;
+    }
+    h2.section--title{
+      font-size: 30px!important;
+    }
+    p.sightdescript{
+      font-size: 20px!important;
+    }
+    p.sightdescript1{
+      font-size: 16px!important;
+    }
+    img.bannerImg{
+      width:380px!important;
+    }
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:34px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+}
+b.colorLetter{
+  color:#7a13fe;
+  font-weight: 600;
+}

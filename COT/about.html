@@ -1,0 +1,455 @@
+
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title data-action="ioc_href_index3">About Us</title>
+	<meta name="description" content="IOTBC" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="views/IMJ2V2/css/amazeui.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.min.css" />
+  <style type="text/css">
+        canvas{
+            position: absolute;
+        }
+        .am-viewport{
+            position: absolute;
+        }
+        .m-hd {
+          height: 78px;
+          padding: 15px 0 0 0;
+          /*background-color: rgba(47, 51, 51, 1);*/
+          background-color: #000;
+          position:fixed;
+        }
+        body{
+            background-color: #eee;
+        }
+        .section .section--header .section--title{
+            font-size: 48px;
+            font-weight: 600;
+            color:#2f3333;
+        }
+        .section .section--header .section--description{
+            font-size: 36px;
+            font-weight: 300;
+            color:#2f3333;
+            line-height: normal;
+            text-align: left;
+        }
+    		.spanStyle{  
+    			  white-space: nowrap;  /*强制span不换行*/
+    			  display: inline-block;  /*将span当做块级元素对待*/
+    			  width: 162px;  /*限制宽度*/
+    			  overflow: hidden;  /*超出宽度部分隐藏*/
+    			  text-overflow: ellipsis;  /*超出部分以点号代替*/
+    			  line-height: 25px;  /*数字与之前的文字对齐*/
+            margin-top: 8px;
+    		}
+        @media screen and (max-width: 479px) {
+            .m-hd {
+              height: 49px!important;
+              padding: 0!important;
+            }
+        }
+    </style>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://cdn.bootcss.com/html5shiv/3.7/html5shiv.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+
+	<![endif]-->
+	
+</head>
+<!--[if lt IE 9]>
+<div class="am-modal am-modal-no-btn am-modal-active" tabindex="-1" id="doc-modal-1" style="display: block; width: 400px; margin-left: -200px; margin-top: -112px;">
+<div class="am-modal-dialog">
+<div class="am-modal-hd">365 安全卫士提醒</div>
+<div class="am-modal-bd">你的浏览器太古董了，还不换一个你就奥特曼了
+    <a href="http://browsehappy.com/" target="_blank" class="am-btn am-btn-danger am-btn-sm am-radius" rel="nofollow">速速点击换一个</a>
+    </div>
+</div>
+</div>
+<![endif]-->
+<body>
+<header class="m-hd">
+    <section data-am-sticky class="am-show-md-up">
+        <div class="am-container">
+            <h2 class="navLogo1"><img src="img/logo.png" height="49" width="49" /><!-- &nbsp;&nbsp;IOTBC --></h2>
+            <nav style="float:right;">
+              <ul class="m-nav am-nav am-nav-pills am-fr">
+                <li><a href="index.html" rel="nofollow"><span data-action="ioc_href_index1">首页</span></a></li>
+                <li><a href="contact.html" rel="nofollow"><span data-action="ioc_href_index2">合作入口</span></a></li>
+                <li class="am-active"><a href="about.html" rel="nofollow"><span data-action="ioc_href_index3">关于我们</span></a></li>
+                <li style="display:none;">
+                    <a href="javascript:void(0)" rel="nofollow" style="border:1px solid #fff;">
+                       <span onclick="chooseChi();" >中</span>&nbsp;/&nbsp;<span onclick="chooseEng();">En</span>
+                    </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 移动端自适应 -->
+    <nav data-am-widget="header" class="am-header am-show-sm-only">
+      <div class="am-header-left am-header-nav">
+        <a href="#right-link" class="" data-am-offcanvas="{target: '#r-nav'}">
+          <i class="am-header-icon am-icon-bars" style="font-size:24px;"></i>
+        </a>
+      </div>
+      <div class="am-header-right am-header-nav">
+        <a href="index.html" rel="nofollow">
+          <i class="am-header-icon am-icon-home" style="font-size:24px;"></i><!-- 首页-->
+        </a>
+      </div>
+    </nav>
+
+    <!-- 侧边栏内容 -->
+    <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas >
+        <a href="javascript: void(0)" class="am-menu-toggle" style="position:absolute;right:-70px;"></a>
+        <div id="r-nav" class="am-offcanvas">
+          <div class="am-offcanvas-bar">
+              <ul class="am-menu-nav am-avg-sm-1">
+                  <li><a href="index.html" class="" ><span data-action="ioc_href_index1">首页</span></a></li>
+                  <li><a href="contact.html" class="" ><span data-action="ioc_href_index2">合作入口</span></a></li>
+                  <li><a href="about.html" class="" ><span data-action="ioc_href_index3">关于我们</span></a></li>
+                  <!-- <li class="am-parent">
+                    <a href="" class="nav-icon nav-icon-globe" ><span data-action="ioc_href_index4">双语切换&nbsp;&nbsp;</span></a>
+                      <ul class="am-menu-sub am-collapse btnSmall">
+                          <li class="am-active" onclick="chooseChi();">
+                            <a href="javascript:void(0)" ><span>中文</span></a>
+                          </li>
+                          <li class="" onclick="chooseEng();">
+                            <a href="javascript:void(0)" ><span>English</span></a></a>
+                          </li>
+                      </ul>
+                  </li>  -->            
+              </ul>
+          </div>
+        </div>
+    </nav>
+</header>
+<div class="am-container m-home-box contentBox">
+    <div class="section contentBox" style="padding-top:0;margin-bottom:120px;">
+      <div class="container contentBox" style="padding-top:0;">
+        <div class="section--header">
+          <h2 class="section--title"><span data-action="about_data_001">我们是谁</span></h2>
+          <p class="section--description">
+            <span data-action="about_data_002">我们IOTBC团队作为物理应用实践派的代表,作为"物联网+区块链结合应用"概念的开拓者和倡议者,我们打造了基于物与物的物联网链网平台和基于物与人的人工智能机器人交互平台的智能硬件物联网链网系统支撑体系。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section contentBox" style="padding-top:0;padding-bottom:20px;margin-bottom:55px;">
+      <div class="container contentBox" style="padding-top:0;">
+        <div class="section--header">
+          <h2 class="section--title" style="text-align:left;border-bottom:3px solid #979797;line-height:105px;"><span data-action="about_data_003">我们的团队</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="am-tabs-bd solutions-tabs-content " style="z-index:-9999;">
+      <div data-tab-panel-0 class="am-tab-panel am-active">
+        <ul class=" solutions-content-ul">
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_004">王稳</span></h5>
+                    <p class="imgText"><span data-action="about_data_004_1">工科背景，COT负责人，早期中兴通讯通信技术与测试专家，物联网和智能自动化持续创业者，在行业内有复合的工作和创业经历。</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_005">景一欧</span></h5>
+                    <p class="imgText"><span data-action="about_data_005_1">中国科院半导体研究所工学博士，COT识别系统专家。曾在华虹NEC从事芯片设计开发工作，射频识别领域著名人士，持续创业者。</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_006">蔡智勇</span></h5>
+                    <p class="imgText"><span data-action="about_data_006_1">浙江大学计算机科学与技术博士，曾任金电网安研发部经理，较强的网络工程和网络应用层开发能力，丰富的Linux下C编程经验。</span></p>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>    
+      </div>
+    </div>
+    <div class="am-tabs-bd solutions-tabs-content " style="z-index:-9999;">
+      <div data-tab-panel-0 class="am-tab-panel am-active">
+        <ul class=" solutions-content-ul">
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_007">康亮</span></h5>
+                    <p class="imgText"><span data-action="about_data_007_1">南京理工大学计算机学院模式识别与智能系统博士，智能规划、优化算法、系统建模、控制算法，相关领域拥有多项发明专利。</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_008">袁宁</span></h5>
+                    <p class="imgText"><span data-action="about_data_008_1">湖南大学金融学投资方向，COT市场运营。曾负责东信和平芯片导入上海银行等，有电子设备市场、渠道和新媒体等复合运营经验。</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_009">池志炜</span></h5>
+                    <p class="imgText"><span data-action="about_data_009_1">上海交大&同济大学硕士，COT产品体验及视觉设计专家。曾在中兴通讯任高级软件开发工程师，招商银行资深用户体验设计师。</span></p>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>    
+      </div>
+    </div>
+    <div class="am-tabs-bd solutions-tabs-content " style="z-index:-9999;">
+      <div data-tab-panel-0 class="am-tab-panel am-active">
+        <ul class=" solutions-content-ul">
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_007">汪红</span></h5>
+                    <p class="imgText">
+                        <span data-action="about_data_007_1">华东师大言语听觉科学教育部重点实验室博士，擅长AVR单片机和DSP TMS320VC5509A等主芯片方案的听觉统合训练的系统级研究和开发。</span>
+                    </p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_008">李庆梅</span></h5>
+                    <p class="imgText">
+                        <span data-action="about_data_008_1">上海大学机械电子工程博士，机器人视觉和平衡方向方向研究专家，有多项机器视觉相关发明专利。</span>
+                    </p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_009">张荣鉴</span></h5>
+                    <p class="imgText"><span data-action="about_data_009_1">北京理工大学兵器科学与技术工学博士，机器数据挖掘领域专家。</span></p>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>    
+      </div>
+    </div>
+    <div class="am-tabs-bd solutions-tabs-content " style="z-index:-9999;">
+      <div data-tab-panel-0 class="am-tab-panel am-active">
+        <ul class=" solutions-content-ul">
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_007">李健</span></h5>
+                    <p class="imgText"><span data-action="about_data_007_1">上海交通大学，机械设计及理论博士，机电自动化与科技材料学理论学术方面著名人士。</span></p>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>    
+      </div>
+    </div>
+   <!--  <div class="section contentBox" style="padding-top:0;padding-bottom:20px;margin-bottom:55px;">
+      <div class="container contentBox" style="padding-top:0;">
+        <div class="section--header">
+          <h2 class="section--title" style="text-align:left;border-bottom:3px solid #979797;line-height:105px;"><span data-action="about_data_010">我们的顾问</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="am-tabs-bd solutions-tabs-content " style="z-index:-9999;">
+      <div data-tab-panel-0 class="am-tab-panel am-active">
+        <ul class=" solutions-content-ul">
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_011">团队优势7</span></h5>
+                    <p class="imgText"><span data-action="about_data_011_1">我们IOTBC团队作为物理应用实践派的代表，也期待优秀务实的你的加入！</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_012">团队优势8</span></h5>
+                    <p class="imgText"><span data-action="about_data_012_1">我们IOTBC团队作为物理应用实践派的代表，也期待优秀务实的你的加入！</span></p>
+                </div>
+            </li>
+            <li class="am-u-md-4 bottomSpace">
+                <div class="am-u-lg-3 solution-tabs-img">
+                    <img src="img/round1.png" height="98" width="98" />
+                </div>
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words" style="padding-left: 50px;">
+                    <h5 class="imgTitle"><span data-action="about_data_013">团队优势9</span></h5>
+                    <p class="imgText"><span data-action="about_data_013_1">我们IOTBC团队作为物理应用实践派的代表，也期待优秀务实的你的加入！</span></p>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>    
+      </div>
+    </div> -->
+    
+</div>
+<footer class="m-footer">
+
+<div class="am-container">
+    <section class="am-g m-footer-container">
+        <section class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+            <h2><img src="img/logo.png" height="49" width="49" />&nbsp;&nbsp;COT.network</h2>
+        </section>
+        <section class="am-u-sm-12 am-u-md-6 am-u-lg-3 bottomText">               
+           <!--  <ul>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Telegram</h3></li>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Discord</h3></li>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Twitter</h3></li>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Facebook</h3></li>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Reddit</h3></li>
+                <li><h3><img src="img/logo.png" height="32" width="32" />&nbsp;&nbsp;Medium</h3></li>
+            </ul> -->
+        </section>
+        <section class="am-u-sm-12 am-u-md-6 am-u-lg-3 subnav bottomText">
+            <h2><img src="img/QR.png" height="162" width="162" /></h2>
+            <a href="javascript:;" rel="nofollow"><span class="spanStyle" data-action="main_data_011" nowrap="nowrap">微信公众号</span></a> 
+        </section>
+    </section>
+</div>
+<div class="copyRight">
+    <div class="m-footer-bottom">
+        <p>Copyright @ 2017 - 2018 www.cot.network All Rights Reserved </p>
+    </div>
+</div>
+</footer>
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="views/IMJ2V2/js/polyfill/rem.min.js"></script>
+<script src="views/IMJ2V2/js/polyfill/respond.min.js"></script>
+<script src="views/IMJ2V2/js/amazeui.legacy.js"></script>
+<![endif]-->
+ <script src="views/IMJ2V2/js/echo.min.js"></script>
+ <script>
+  echo.init({
+    offset: 100,
+    throttle: 250,
+    unload: false,
+    callback: function (element, op) {
+      console.log(element, 'has been', op + 'ed')
+    }
+  });
+  // 图片赖加载
+  </script>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="views/IMJ2V2/js/jquery.min.js"></script>
+<script src="views/IMJ2V2/js/amazeui.min.js"></script>
+<!--<![endif]-->
+<script src='views/IMJ2V2/js/jquery.qrcode.min.js'></script>
+<script type="text/javascript" src="js/amazeui.dialog.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/language_ch.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/language_en.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/config.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	var str = qrcode_url;
+		$("#code").qrcode({
+			render: "table",
+			width: 100,
+			height:100,
+			text: str
+		});
+
+    var $aBtn=$('ul.btn li');
+    var $aBtn1=$('ul.btnSmall li');
+
+    /**
+	//中文
+    $aBtn.click(function(event) { 
+        $(this).addClass('am-active');
+        $(this).siblings("li").removeClass("am-active");
+    });
+	//英文
+    $aBtn1.click(function(event) { 
+        $(this).addClass('am-active1');
+        $(this).siblings("li").removeClass("am-active1");
+    });**/
+
+})
+// 二维码生成
+//返回顶部
+function imj2(){
+	this.init();
+}
+imj2.prototype = {
+	constructor: imj2,
+	init: function(){
+		this._initBackTop();
+	},
+	_initBackTop: function(){
+		var $backTop = this.$backTop = $('<div class="m-top-cbbfixed">'+
+						//'<a class="m-top-weixin m-top-cbbtn"">'+
+						//	'<span class="m-top-weixin-icon"></span><div></div>'+
+						//'</a>'+
+						'<a class="m-top-go m-top-cbbtn">'+
+							'<span class="m-top-goicon"></span>'+
+						'</a>'+
+					'</div>');
+		// $('body').append($backTop);
+
+		$backTop.click(function(){
+			$("html, body").animate({
+				scrollTop: 0
+			}, 120);
+		});
+
+		var timmer = null;
+		$(window).bind("scroll",function() {
+            var d = $(document).scrollTop(),
+            e = $(window).height();
+            0 < d ? $backTop.css("bottom", "10px") : $backTop.css("bottom", "-90px");
+			clearTimeout(timmer);
+			timmer = setTimeout(function() {
+                clearTimeout(timmer)
+            },100);
+	   });
+	}
+
+}
+var imj2 = new imj2();
+//end返回顶部
+
+
+</script>
+
+
+</body>
+</html>
