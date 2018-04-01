@@ -1,5 +1,7 @@
 //提交地址-测试环境
 var url_01 = "http://127.0.0.1:8080/personal/sendMail/0";
+// var url_01 = "http://47.75.81.160/personal/sendMail/0";
+//172.31.52.92
 
 var qrcode_url = "www.iotbc.com";
 

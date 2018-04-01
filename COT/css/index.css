@@ -85,7 +85,7 @@ a,a:hover,a:focus{
 .spanStyle{  
     white-space: nowrap;  /*强制span不换行*/
     display: inline-block;  /*将span当做块级元素对待*/
-    width: 162px;  /*限制宽度*/
+    width: 100%;  /*限制宽度*/
     overflow: hidden;  /*超出宽度部分隐藏*/
     text-overflow: ellipsis;  /*超出部分以点号代替*/
     line-height: 25px;  /*数字与之前的文字对齐*/
@@ -94,7 +94,7 @@ a,a:hover,a:focus{
 .spanStyle2{  
     white-space: nowrap;  /*强制span不换行*/
     display: inline-block;  /*将span当做块级元素对待*/
-    width: 210px;  /*限制宽度*/
+    width: 100%;  /*限制宽度*/
     overflow: hidden;  /*超出宽度部分隐藏*/
     text-overflow: ellipsis;  /*超出部分以点号代替*/
     line-height: 25px;  /*数字与之前的文字对齐*/
@@ -102,6 +102,7 @@ a,a:hover,a:focus{
 }
 p.introDetail{
     font-size:24px;
+    /*line-height: 30px;*/
     font-weight:300;
     color:#fff;
     width:452px;
