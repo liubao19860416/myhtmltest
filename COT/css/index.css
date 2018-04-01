@@ -9,10 +9,11 @@ canvas{
 .am-viewport{
     position: absolute;
 }
+/*
 .bgPic{ 
   background-image:url(../img/bg.png);
 }
-/*.bgHover:hover{
+.bgHover:hover{
   background:url(../img/00-1.png) repeat center;
 }*/
 .box{
