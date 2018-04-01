@@ -3,9 +3,7 @@ var url_01 = "http://127.0.0.1:8080/personal/sendMail/0";
 // var url_01 = "http://47.75.81.160/personal/sendMail/0";
 //172.31.52.92
 
-var qrcode_url = "www.iotbc.com";
-
-
+var qrcode_url = "cot.network";
 
 //截取url数据方法
 var getParam = function (name) {
@@ -25,7 +23,7 @@ var getParam = function (name) {
 			}
 		}
 	}
-	console.log("参数:"+name+"=======>>>"+items);
+	//console.log("参数:"+name+"=======>>>"+items);
 	return items;
 };
 
@@ -93,11 +91,11 @@ function langString(language){
 	// 			$(this).text(data[msg])
 	//         })  
 	// 	})	
-	console.log("当前获取的语言为:"+language);
+	//console.log("当前获取的语言为:"+language);
 	if(language == 'en'){
 		$('[data-action]').each(function(){
 			var msg = $(this).attr('data-action');
-			console.log("当前获取msg对象为:"+ msg +"==>>"+data_en[msg]);
+			//console.log("当前获取msg对象为:"+ msg +"==>>"+data_en[msg]);
 			$(this).text(data_en[msg]);
 			//$(this).html(data_en[msg]);
 		})  
@@ -105,7 +103,7 @@ function langString(language){
 	if(language == 'ch'){
 		$('[data-action]').each(function(){
 			var msg = $(this).attr('data-action');
-			console.log("当前获取msg对象为:" + msg +"==>>"+data_ch[msg]);
+			//console.log("当前获取msg对象为:" + msg +"==>>"+data_ch[msg]);
 			$(this).text(data_ch[msg]);
 		})  
 	}
@@ -114,10 +112,10 @@ function langString(language){
 		var msgPlaceholder = $(this).attr('data-placeholder');
 		if(language == 'ch'){
 			$(this).attr('placeholder',data_ch[msgPlaceholder]);
-			console.log("当前获取placeholder为:" + msgPlaceholder +"==>>"+data_ch[msgPlaceholder]);
+			//console.log("当前获取placeholder为:" + msgPlaceholder +"==>>"+data_ch[msgPlaceholder]);
 		}else{
 			$(this).attr('placeholder',data_en[msgPlaceholder]);
-			console.log("当前获取placeholder为:" + msgPlaceholder +"==>>"+data_en[msgPlaceholder]);
+			//console.log("当前获取placeholder为:" + msgPlaceholder +"==>>"+data_en[msgPlaceholder]);
 		}
 	});
 		

@@ -493,7 +493,7 @@ function submitSkillText(){
 	}
 
 	var paramMap={'nameOrSkill':fiilData1,'industry':fiilData2,'phoneNum':fiilData3,'email':fiilData4,'planDetail':fiilData5,'subject':subject,'subjectType':radio1Value};
-	console.log("请求参数信息为:"+JSON.stringify(paramMap));
+	//console.log("请求参数信息为:"+JSON.stringify(paramMap));
 	$.ajax({
 		  type: 'POST',
 		  url: url_01,
@@ -511,15 +511,15 @@ function submitSkillText(){
 				AMUI.dialog.alert({ title: '', content: '提交成功!', onConfirm: function() { console.log('close'); } }); 
 			}else{
 				if(data){
-					console.log("结果为:"+data.message);
+					//console.log("结果为:"+data.message);
 					AMUI.dialog.alert({ title: '异常', content: data.message, onConfirm: function() { console.log('close'); } });
 				}else{
-					console.log("结果为:"+JSON.stringify(data));
+					//console.log("结果为:"+JSON.stringify(data));
 					AMUI.dialog.alert({ title: '异常', content: JSON.stringify(data), onConfirm: function() { console.log('close'); } });
 				}
 			}	
 		  },error: function(XMLHttpRequest, textStatus, errorThrown){
-			console.log("异常信息为:"+errorThrown)
+			//console.log("异常信息为:"+errorThrown)
 			AMUI.dialog.alert({ title: '异常', content: errorThrown, onConfirm: function() { console.log('close'); } });
 		  }
 		});
@@ -545,7 +545,7 @@ function submitOrgText(){
 	}
 
 	var paramMap={'nameOrSkill':fiilData1,'industry':fiilData2,'phoneNum':fiilData3,'email':fiilData4,'planDetail':fiilData5,'subject':'机构合作','subjectType':'2'};
-	console.log("请求参数信息为:"+JSON.stringify(paramMap));
+	//console.log("请求参数信息为:"+JSON.stringify(paramMap));
 	$.ajax({
 		  type: 'POST',
 		  url: url_01,
@@ -563,15 +563,15 @@ function submitOrgText(){
 				AMUI.dialog.alert({ title: '', content: '提交成功!', onConfirm: function() { console.log('close'); } });
 			}else{
 				if(data){
-					console.log("结果为:"+data.message);
+					//console.log("结果为:"+data.message);
 					AMUI.dialog.alert({ title: '异常', content: data.message, onConfirm: function() { console.log('close'); } });
 				}else{
-					console.log("结果为:"+JSON.stringify(data));
+					//console.log("结果为:"+JSON.stringify(data));
 					AMUI.dialog.alert({ title: '异常', content: JSON.stringify(data), onConfirm: function() { console.log('close'); } });
 				}
 			}	
 		  },error: function(XMLHttpRequest, textStatus, errorThrown){
-			console.log("异常信息为:"+errorThrown)
+			//console.log("异常信息为:"+errorThrown)
 			AMUI.dialog.alert({ title: '异常', content: errorThrown, onConfirm: function() { console.log('close'); } });
 		  }
 		});
