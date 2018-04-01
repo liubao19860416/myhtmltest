@@ -165,7 +165,7 @@ p.introDetail{
       font-size: 16px!important;
     }
     img.bannerImg{
-      width:300px!important;
+      width:350px!important;
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -218,7 +218,7 @@ p.introDetail{
       font-size: 16px!important;
     }
     img.bannerImg{
-      width:300px!important;
+      width:350px!important;
     }
 }
 @media screen and (max-width: 479px) {
@@ -271,7 +271,7 @@ p.introDetail{
       font-size: 16px!important;
     }
     img.bannerImg{
-      width:300px!important;
+      width:350px!important;
     }
 }
 .iconfont{
