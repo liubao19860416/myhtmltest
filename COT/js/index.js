@@ -12,43 +12,44 @@ var waves = new SineWaves({
   },
   
   height: function() {
-    return $(window).height();
+	 var tmpH = $(window).height();
+    return tmpH+tmpH/10*3;
   },
   
   ease: 'SineInOut',
   
-  wavesWidth: '70%',
+  wavesWidth: '50%',
   
   waves: [
     {
       timeModifier: 4,
       lineWidth: 1,
-      amplitude: -25,
-      wavelength: 25
+      amplitude: -15,
+      wavelength: 15
     },
     {
       timeModifier: 2,
       lineWidth: 2,
-      amplitude: -50,
-      wavelength: 50
+      amplitude: -30,
+      wavelength: 30
     },
     {
       timeModifier: 1,
       lineWidth: 1,
-      amplitude: -100,
-      wavelength: 100
+      amplitude: -45,
+      wavelength: 45
     },
     {
       timeModifier: 0.5,
       lineWidth: 1,
-      amplitude: -200,
-      wavelength: 200
+      amplitude: -70,
+      wavelength: 70
     },
     {
       timeModifier: 0.25,
       lineWidth: 2,
-      amplitude: -400,
-      wavelength: 400
+      amplitude: -80,
+      wavelength: 80
     }
   ],
  
